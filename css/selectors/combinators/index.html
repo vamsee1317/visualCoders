@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Combination Selectors</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Descendant vs Child -->
+  <div class="parent">
+    <p>This is a paragraph inside .parent (Descendant)</p>
+
+    <div class="child">
+      <p>This is a paragraph inside .child (Child of .parent)</p>
+    </div>
+  </div>
+
+  <!-- Adjacent Sibling -->
+  <h2>This is a heading (h2)</h2>
+  <p>This paragraph comes right after h2 (Adjacent Sibling)</p>
+
+  <!-- General Sibling -->
+  <h3>This is another heading (h3)</h3>
+  <p>This paragraph is a general sibling of h3</p>
+  <p>Another paragraph, also a general sibling of h3</p>
+
+</body>
+</html>

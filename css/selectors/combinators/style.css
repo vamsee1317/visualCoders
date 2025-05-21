@@ -1,0 +1,51 @@
+/* 
+
+        Combination Selectors
+            - Descendant
+            - Child
+            - Adjacent
+            - General Sibling
+
+*/
+
+
+/* Descendant (space) */ 
+
+/* 
+div div p{
+    background-color: aqua;
+    font-size: xx-large;
+    font-weight: bold;
+} */
+
+
+/* Child  >  */
+
+/* .parent>p{
+    background-color: beige;
+    font-size: xx-large;
+    padding: 20px;
+}
+
+.child>p{
+    background-color: black;
+    color: white;
+} */
+
+
+/* Adjacent + */
+
+h3+p+p{
+    background-color: red;
+    text-align: center;
+}
+
+
+/* General sibling selector ~ */
+
+
+.parent+h2+p+h3>p{
+    background-color: burlywood;
+    color: rgb(67, 116, 118);
+    font-weight: bold;
+}
