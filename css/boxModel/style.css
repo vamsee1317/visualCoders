@@ -1,0 +1,94 @@
+/* 
+    Box Model :  
+
+    The box model is a fundamental concept in CSS that describes how an element's layout is composed of four main parts:
+
+        1. content   
+        2. padding
+        3. border
+        4. margin
+
+*/
+
+
+.box1{
+    width: 100px;
+    height: 100px;
+    /* background-color: red; */
+    padding: 10px;
+    border: 10px solid black;
+    margin: 0px ;
+
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    /* background-color: blue; */
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+
+/* Card styles */
+
+.productContainer{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.productCard{
+    flex-grow: 1;
+    width: 280px;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 8px;
+    /* background-color: rgb(155, 160, 164); */
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.productCard img{
+    border: 2px solid white;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.productCard h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+.productCard p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 5px 0px;
+}
+
+.productCard pre{
+    font-size: 14px;
+    color: green;
+}
+
+.productCard pre strike{
+    color: red;
+    font-size: 10px;
+}
+
+.productCard button{
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+}
