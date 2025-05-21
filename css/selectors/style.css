@@ -1,0 +1,86 @@
+
+
+/* 
+
+    CSS Selectors : 
+
+        CSS selectors is a concept helps us to select an element from the html document and style them.
+
+    Types of Selectors
+
+        Basic Selectors
+            - Tag
+            - class
+            - Id
+            - Attribute
+            - Universal
+            - Grouping
+
+        Combination Selectors
+            - Descendant
+            - Child
+            - Adjacent
+            - General Sibling
+
+        Pseudo Selectors
+            - Pseudo Classes
+            - Pseudo Elements
+
+*/
+
+
+/* Tag Selector */
+
+/* h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+p{
+    background-color: black;
+    color: red;
+    font-size: xx-large;
+} */
+
+/* Class selector  (.) */
+
+.box{
+    background-color: bisque;
+    padding: 20px; 
+    color: red; 
+}
+
+
+/* ID selector ( # ) */
+
+
+/* #main-heading{
+    font-size: 48px;
+    background-color: aqua;
+} */
+
+
+/* Attribute selectors []*/
+
+
+/* ul[type="circle"]{
+    border: 2px solid red;
+}
+
+input[placeholder="Enter your Firstname"]{
+    border: 2px solid green;
+}
+
+input[placeholder="Enter your Lastname"]{
+    border: 2px solid red;
+} */
+
+/* Universal Selector */
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    color: grey;
+}
